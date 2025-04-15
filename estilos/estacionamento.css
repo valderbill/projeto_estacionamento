@@ -1,0 +1,108 @@
+/* Reduz o tamanho do select de placa */
+.select-pequeno {
+    width: 50%;
+    max-width: 300px;
+}
+
+/* Forçar os campos de entrada a ficarem em maiúsculas */
+.form-control {
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-link {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #b9cce5 !important;
+}
+
+/* Aumentar o tamanho do card e a fonte do texto dentro dele */
+.card {
+    padding: 40px;
+    font-size: 1.7rem;
+    background-color: rgb(225, 231, 229); /* Light blue background */
+}
+
+/* Estilo para o ícone e nome ficarem próximos */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Estilo para motorista-card */
+.motorista-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.motorista-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.motorista-card .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.motorista-card .info h5 {
+    margin-bottom: 5px;
+}
+
+.motorista-card .info p {
+    margin-bottom: 0;
+}
+
+/* Estilo para a tabela de acessos */
+.table-acessos {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    border-collapse: collapse;
+}
+
+.table-acessos th, .table-acessos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-acessos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-acessos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-acessos tr:hover {
+    background-color: #f1f1f1;
+}
+
+* Estilo para o campo de acesso em vermelho */
+#acesso_id_container select {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+    color: red;
+}
+
+#acesso_id_container select:focus {
+    border-color: darkred;
+    background-color: #ffcccc;
+}
